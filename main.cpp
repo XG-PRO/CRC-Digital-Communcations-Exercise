@@ -52,7 +52,7 @@ int** XOR_Bit_Division(const int* data,int data_length, int* divider, int divide
     while(!flag2)
     {
 
-        //At the start of each loop, find the first bit of data that is non-zero (as division eliminates bits afterwards without changing the original length
+        //At the start of each loop, find the first bit of data that is non-zero (as division eliminates bits afterwards without changing the original length)
         //This occurs at the start of the loop since the position will be needed before the loop ends to process the remainder
         flag1=false;
         for (int i = 0; i < shifted_data_length  && flag1!=1; i++)
@@ -184,6 +184,7 @@ int main(){
         bool flag=false;
         for (int i=0;i<T_length;i++)
         {
+            //Take random numbers that could be within BER precision to alter the final data (this represents a possible error)
             if (intDistro(defEngine)<BER)
             {
                 if (T[i]==1)
