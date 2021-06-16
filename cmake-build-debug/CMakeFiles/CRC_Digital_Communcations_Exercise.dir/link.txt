@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2020.3\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\CRC_Digital_Communcations_Exercise.dir/objects.a
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\ar.exe cr CMakeFiles\CRC_Digital_Communcations_Exercise.dir/objects.a @CMakeFiles\CRC_Digital_Communcations_Exercise.dir\objects1.rsp
+C:\PROGRA~1\MINGW-~1\X86_64~1.0-P\mingw64\bin\G__~1.EXE -g   -Wl,--whole-archive CMakeFiles\CRC_Digital_Communcations_Exercise.dir/objects.a -Wl,--no-whole-archive  -o CRC_Digital_Communcations_Exercise.exe -Wl,--out-implib,libCRC_Digital_Communcations_Exercise.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\CRC_Digital_Communcations_Exercise.dir\linklibs.rsp

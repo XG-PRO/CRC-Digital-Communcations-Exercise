@@ -1,0 +1,3 @@
+C:/Users/XG-PRO/Desktop/C++ PROJECTS/CRC-Digital-Communcations-Exercise/cmake-build-debug/CMakeFiles/CRC_Digital_Communcations_Exercise.dir
+C:/Users/XG-PRO/Desktop/C++ PROJECTS/CRC-Digital-Communcations-Exercise/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/XG-PRO/Desktop/C++ PROJECTS/CRC-Digital-Communcations-Exercise/cmake-build-debug/CMakeFiles/rebuild_cache.dir

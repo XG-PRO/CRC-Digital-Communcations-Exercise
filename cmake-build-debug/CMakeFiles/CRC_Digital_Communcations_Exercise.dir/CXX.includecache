@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/XG-PRO/Desktop/C++ PROJECTS/CRC-Digital-Communcations-Exercise/main.cpp
+iostream
+-
+cmath
+-
+fstream
+-
+cstring
+-
+
