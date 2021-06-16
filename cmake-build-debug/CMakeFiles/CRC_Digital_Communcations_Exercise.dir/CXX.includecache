@@ -7,12 +7,8 @@
 #IncludeRegexTransform: 
 
 C:/Users/XG-PRO/Desktop/C++ PROJECTS/CRC-Digital-Communcations-Exercise/main.cpp
-iostream
+bits/stdc++.h
 -
-cmath
--
-fstream
--
-cstring
+random
 -
 
