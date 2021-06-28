@@ -24,7 +24,7 @@ int** XOR_Bit_Division(const int* data,int data_length, int* divider, int divide
     bool flag2=false;
     int current_pos=0;
 
-    //If need be, we shift the original data five time to the left, adding 5 zeroes at its end
+    //If need be, we shift the original data five times to the left, adding 5 zeroes at its end
     if (shift_five)
     {
         shifted_data_length = data_length + divider_length - 1;
@@ -78,7 +78,7 @@ int** XOR_Bit_Division(const int* data,int data_length, int* divider, int divide
                 for (int j = 0; j < remainder_length; j++)
                     remainder[j] = shifted_data[current_pos + j];
             }
-            //If the original data is divided perfectly, a pseudo-remainder is created ofr ease of access on checks
+            //If the original data is divided perfectly, a pseudo-remainder is created for ease of access on checks
             else
             {
                 remainder = new int[1];
@@ -201,10 +201,9 @@ int main(){
         //CRC Error check using a Receiver
         crc_error_counter += Receiver(T,T_length,P,P_length);
 
-        delete[] D;
-        delete[] T;
-
     }
+
+    //Results
     cout<<"The number of Known Errors is: "<<known_error_counter<<" or "<<((((double)known_error_counter / (double)MAX_TESTS )) * 100)<<"% of all cases"<<endl;
     cout<<"The number of CRC Found Errors is: "<<crc_error_counter<<" or "<<((((double)crc_error_counter/ (double)MAX_TESTS )) * 100)<<"% of all cases"<<endl;
     cout<<"The number of errors not identified by CRC is: "<<known_error_counter-crc_error_counter<<" or "<<((((double)known_error_counter - (double)crc_error_counter) / (double)crc_error_counter) * 100)<<"% of known cases"<<endl;
